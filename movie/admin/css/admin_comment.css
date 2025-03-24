@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #141414;
+}
+
+h2 {
+    color: #dddddd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #dddddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+p.success {
+    color: green;
+}
+
+p.error {
+    color: red;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+form {
+    background-color: #3b3b3b;
+    color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+textarea, input[type="text"] {
+    width: 100%; 
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #e1e1e1;
+    color: #525252;
+    font-size: small;
+    box-sizing: border-box;
+}
+
+input[type="submit"], button {
+    background-color: pink;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;  
+    margin-top: 20px;
+    background-color: #6d6d6d;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+th {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #525252;
+}
+
+tr:nth-child(odd) {
+    background-color: #787878;
+}
+
+tr:hover {
+    background-color: #191919;
+}
+
+td button {
+    background-color: #28a745;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+td button:hover {
+    background-color: #218838;
+}
+
+td form {
+    display: inline;
+}
+
+td form input[type="hidden"] {
+    display: none;
+}

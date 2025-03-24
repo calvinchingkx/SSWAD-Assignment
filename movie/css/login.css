@@ -1,0 +1,119 @@
+* {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+}
+
+body {
+   background: black;
+   color: #fff;
+}
+
+/* Form Container Styles */
+.form-container {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   padding-bottom: 60px;
+   background: #333;
+}
+
+.form-container form {
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   background: #222;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form input,
+.form-container form select {
+   width: 100%;
+   padding: 15px 15px;
+   font-size: 17px;
+   margin: 8px 0;
+   background: #444;
+   color: #fff;
+   border-radius: 5px;
+}
+
+.form-container form select option {
+   background: #222;
+}
+
+.form-container form .form-btn {
+   background: #fbd0d9;
+   color: crimson;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+   background: crimson;
+   color: #fff;
+}
+
+.form-container form p {
+   margin-top: 10px;
+   font-size: 20px;
+   color: #fff;
+}
+
+.form-container form p a {
+   color: crimson;
+}
+
+.form-container form .error-msg {
+   margin: 10px 0;
+   display: block;
+   background: crimson;
+   color: #fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 10px;
+}
+
+/* Account Buttons */
+.account-buttons {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.account-btn {
+   flex: 1;
+   padding: 15px;
+   font-size: 18px;
+   background: #333;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   text-align: center;
+   border-radius: 5px;
+   margin: 0 5px;
+   text-transform: capitalize;
+}
+
+.account-btn:hover {
+   background: crimson;
+}
+
+.account-btn.selected {
+   background: crimson;
+   color: white;
+   font-size: 20px;
+   transform: scale(1.1);
+   transition: transform 0.3s ease;
+}
+
+/* Remove extra top margin for submit button */
+.form-container form input[type="submit"] {
+   margin-top: 20px;
+}
